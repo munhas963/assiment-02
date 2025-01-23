@@ -1,6 +1,9 @@
 .flex{
     display: flex;
 }
+#botter{
+    background-image: url(./assets/bg.png);
+}
 .nav-head{
     justify-content: space-between;
     margin-top: 20px;
@@ -214,6 +217,7 @@ h1{
 .hedder-cid{
     margin: 0px 140px 0px 100px;
     
+    
    
     
    
@@ -295,6 +299,7 @@ margin-left: 50px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 50px;
 }
 .item-2{
     width: 350px;
@@ -313,7 +318,7 @@ margin-left: 50px;
 .foot {
     border: 1px solid white;
     background-color: #01ACFD;
-    height: 520px;
+    /* height: px; */
 }
 .footar{
     gap: 110px;
@@ -354,12 +359,14 @@ margin-left: 50px;
     width: 100%;
     justify-content: center;
  }
-.foot{
+.footar{
     
     grid-template-columns: 1fr;
     flex-direction: column;
     justify-content: center;
     flex-wrap:wrap;
-
+    align-items: center;
+    margin: 0%;
+    padding: 50px;
 }
 }
