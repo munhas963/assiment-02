@@ -1,0 +1,365 @@
+.flex{
+    display: flex;
+}
+.nav-head{
+    justify-content: space-between;
+    margin-top: 20px;
+    border: 1px solid orange;
+    border: hidden;
+  
+}
+.nav-title{
+    margin-left: 120px;
+}
+.sc{
+    font-size: 32px;
+    font-weight: 700;
+    color: #111111;
+}
+
+.nav-list{
+    list-style: none;
+    text-decoration: none;
+}
+.a-li, .a-li2, .a-li3, .a-li4 {
+    margin-right: 32px;
+    text-decoration: none;
+}
+
+.a-li{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FEA301;
+}
+.a-li2{
+    font-size: 20px;
+    font-weight: 500;
+    color: skyblue;
+}
+.a-li3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #05D4DF;
+}
+.a-li4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #5D58EF;
+}
+
+
+.btn1{
+background-color: orange;
+font-size: 20px;
+font-weight: bold;
+color: #FFFFFF;
+border-radius: 12px;
+padding: 10px 60px 10px 60px;
+width: 195px;
+height: 50px;
+margin-right: 140px;
+    
+}
+.h-1{
+    font-size: 56px;
+    font-weight: bold;
+    color: orange;
+}
+.h-2{
+    font-size: 56px;
+    font-weight: bold;
+    color: black;
+}
+.h-3{
+    font-size: 56px;
+    font-weight: bold;
+    color: skyblue;
+}
+.p-1{
+    font-size: 20px;
+}
+.btn-2{
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 47px;
+    border: none;
+    font-size: 20px ;
+    font-weight: bold;
+}
+.img-b{
+    margin-top: 10px;
+    width: 100%;
+}
+.banner-h{
+    gap: 50px;
+    margin: 0px 140px 0px 140px;
+    width: 100%;
+}
+.banner-cont{
+    max-width: 640;
+ 
+}
+.back{
+    background-image: url(./assets/bg.png);
+}
+h1{
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    color:#000000;
+    margin-top: 100px;
+}
+.card-contner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 80px 140px 0px 110px;
+    gap: 28px;
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+   
+    
+}
+.card1{
+    border: 1px solid orange;
+    width: 367px;
+    height: 470px;
+    border-radius: 18.50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.card2{
+    border: 1px solid orange;
+    width: 367px;
+    height: 470px;
+    border-radius: 18.50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.card3{
+    border: 1px solid orange;
+    width: 367px;
+    height: 470px;
+    border-radius: 18.50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.card-h{
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+    margin-top: 33px;
+    font-weight: 700;
+
+}
+.text{
+    color: #808080;
+    font-size: 15px;
+    font-weight: 500;
+}
+.btn2{
+   background-color: white;
+    color: #64C8FF;
+    border: none;
+    background: none;
+}
+.btn3{
+    background-color: white;
+    color: #F0AA00;
+    border: none;
+    background: none;
+}
+.btn4{
+    background-color: white;
+    color: #8700FF;
+    border: none;
+    background: none;
+}
+.card1{
+    background-image: linear-gradient(  skyblue, rgb(241, 241, 241) 140px   );
+
+}
+.card2{
+    background-image: linear-gradient( rgb(236, 184, 87),  rgb(241, 241, 241) 140px );
+}
+.card3{
+    background-image: linear-gradient( rgb(86, 82, 109),  rgb(241, 241, 241) 140px );
+}
+
+.i-cone{
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
+   
+}
+.con{
+   border: 1px solid orange;
+   border-radius: 25px;
+   color: white;
+   width: 30px;
+   height: 20px;
+  background-color: orange;
+   text-align: center;
+   padding: 17px;
+   font-size: 20px;
+   font-weight: bold;
+   
+}
+.hedder-cid{
+    margin: 0px 140px 0px 100px;
+    
+   
+    
+   
+}
+.child{
+    gap: 20px;
+ 
+}
+.he1{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.child1{
+    width: 540px;
+   border-radius: 16px;
+   background-color: #FFFFFF;
+}
+.button-x{
+background-color: #3CD8E8;
+border-radius: 48px;
+color: #FFFFFF;
+padding: 14px 19px;
+border: none;
+margin-top: -100px;
+margin-left: 50px;
+
+}
+.p-1{
+    text-align: center;
+    
+}
+
+.child-head{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+.btn-c{
+    background-color: #95B226;
+    color: #FFFFFF;
+    padding: 10px 18px; 
+    border-radius: 47px;
+    border: none;
+  margin-left: 50px;
+   margin-top: -100px;
+
+}
+.iimm{
+    border-radius: 16px;
+}
+.par-c{
+    color: #000000;
+    font-size: 15px;
+   font-weight: 700;
+   text-align: center;
+}
+.child24{
+  border-radius: 16px;
+  background-color: #FFFFFF;
+}
+.image-c{
+    border-radius: 16px;
+    width: 100%;
+}
+.btn-24{
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 60px;
+    border-radius: 12px;
+   
+   
+   
+}
+.bt-24{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.item-2{
+    width: 350px;
+}
+.ult{
+    list-style: none;
+    
+}
+.mt{
+    /* display: grid;
+    grid-template-columns:repeat(1, 1fr); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot {
+    border: 1px solid white;
+    background-color: #01ACFD;
+    height: 520px;
+}
+.footar{
+    gap: 110px;
+    padding: 140px 140px 140px 140px;
+    color: white;
+    flex-wrap: wrap;
+}
+ 
+.xy{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+
+@media screen and (max-width:576px) {
+    .sc, .nav-list, .btn1, .child1 {
+        display: none;   
+    }
+    .img-b img{
+        width: 100%;
+    }
+
+.banner-h{
+    flex-direction: column-reverse;
+    grid-template-columns: 1fr;
+   margin: 0%;
+    justify-content:center;
+}
+.card-contner{
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+ .child-head{
+    margin: 0%;
+    width: 100%;
+    justify-content: center;
+ }
+.foot{
+    
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap:wrap;
+
+}
+}
